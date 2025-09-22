@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #F0F2BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #4B352A;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 8px;
+}
+input {
+    border-color: #4B352A;
+    height: 20px;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#addTaskBtn {
+    background-color: #af6634;
+    color: white;
+    padding: 5px 10px
+}
+#addTaskBtn:hover{
+    background-color: #4B352A;
+}
+
+li {
+  display: block;
+  justify-content: space-between;
+  background: #fafafa;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: black;
+}
+
+#filters {
+  margin-top: 10px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #B2CD9C;
+  color: #4B352A;
+  border: none;
+}
+
+.filterBtn.active {
+  background-color: #4B352A;
+  color: white;
+  border-radius: 5px;
+}
+.addButton, .delButton, .subDelBtn{
+    margin-left: 8px;
+    background-color: #F0F2BD;
+    color: #4B352A;
+    opacity: 0.9;
+    padding: 10px;
+}
+.filterBtn{
+    padding: 10px;
+}
+.newTask{
+    color: #4B352A;
+}
+button:hover{
+    background-color: #4B352A;
+    color: white;
+}
+
+.divSubInput{
+    margin-top: 15px;
+    display: flex;
+    align-items: start;
+}
+
+.saveBtn{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #af6634;
+    color: white;
+}
