@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="'author" content="Rush">
+  <meta name="description" content="Practicing jQuery">
+  <link href="./CSS/styles.css" rel="stylesheet" type="text/CSS">
+  <title>To-Do List</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>My To-Do List</h1>
+
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <div id="filters">
+            <button class="filterBtn" data-filter="all">All</button>
+            <button class="filterBtn" data-filter="active">Active</button>
+            <button class="filterBtn" data-filter="completed" id="Completed">Completed</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
